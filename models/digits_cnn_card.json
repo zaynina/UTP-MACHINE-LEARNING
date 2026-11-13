@@ -1,0 +1,14 @@
+{
+  "task": "classify 8x8 handwritten digits (0-9)",
+  "input": "tensor of shape (n, 1, 8, 8), pixel values divided by 16",
+  "architecture": "make_cnn() in Lab 7: conv16-pool-conv32-pool-dense64-dense10",
+  "training": {
+    "epochs": 20,
+    "learning_rate": 0.003,
+    "batch_size": 32,
+    "seed": 42
+  },
+  "official_test_accuracy": 0.9711,
+  "torch_version": "2.14.0+cpu",
+  "trained_on": "cpu"
+}
